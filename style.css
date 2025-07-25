@@ -1,0 +1,30 @@
+body {
+  background-color: #000;
+  color: #00ff00;
+  font-family: 'Courier New', Courier, monospace;
+  margin: 0;
+  padding: 10px;
+  height: 100vh;
+}
+
+#terminal {
+  max-width: 800px;
+  margin: auto;
+  white-space: pre-wrap;
+}
+
+.prompt {
+  color: #00ff00;
+}
+
+#cursor {
+  display: inline-block;
+  width: 10px;
+  background-color: #00ff00;
+  animation: blink 1s infinite;
+}
+
+@keyframes blink {
+  0%, 50% { background-color: #00ff00; }
+  51%, 100% { background-color: transparent; }
+}
