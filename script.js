@@ -4,7 +4,7 @@ const cursor = document.getElementById("cursor");
 const lines = [
   "Welcome to Ali's Portfolio Terminal!",
   "",
-  "alias name='Ali Haider'",
+  "alias name='Hassan'",
   "echo Skills: [Cybersecurity, Web Dev, Linux, Python, JavaScript]",
   "echo Projects:",
   "  - ReverseMe CTF: Binary reversing challenge",
